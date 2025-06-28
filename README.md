@@ -22,16 +22,17 @@ Automatically start or stop EC2 instances based on their tags using a Lambda fun
 |----------------------------|---------------|-------------|
 | KanakaManoj-Instance1      | `ActionManoj` | `Auto-Stop` |
 | KanakaManoj-Instance2      | `ActionManoj` | `Auto-Start` |
-'KanakaManoj-Instance1' in start mode
+
+
+`KanakaManoj-Instance1` in start mode
 ![image](https://github.com/user-attachments/assets/de64e281-0d3a-42cf-9421-3d6fb548594b)
 ![image](https://github.com/user-attachments/assets/ca185da4-3e51-431f-9f36-4b2c15202244)
 
-'KanakaManoj-Instance2' in stop mode
+`KanakaManoj-Instance2` in stop mode
 ![image](https://github.com/user-attachments/assets/92801f12-92d0-491a-9795-50054e688161)
 ![image](https://github.com/user-attachments/assets/8a733226-852d-4673-8219-6dee930d7713)
 
 ![image](https://github.com/user-attachments/assets/a99f65b7-7201-4c31-908c-ddb8d73d5220)
-
 Ensure:
 - One instance is in `running` state (to stop)
 - The other is in `stopped` state (to start)
